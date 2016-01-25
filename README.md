@@ -9,6 +9,8 @@ To compile and run without mvn at package root scr/java :
     
 Otherwise, please use mvn at project root:
 
-mvn test
-mvn package
-java -cp target/question3-1.0-SNAPSHOT.jar org.vnsgbt.infoplus.App    
+    mvn test
+    mvn package
+    java -cp target/question3-1.0-SNAPSHOT.jar org.vnsgbt.infoplus.App    
+    
+    
