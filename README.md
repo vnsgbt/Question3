@@ -2,15 +2,9 @@
 
 Take in an arbitrarily long “number” and return it formatted with commas
 
-To compile and run without mvn at package root scr/java :
-    
-    javac -cp . org\vnsgbt\infoplus App.java
-    java -cp . org.vnsgbt.infoplus.App [number]
-    
-Otherwise, please use mvn at project root:
+To build and run with javac from directory src/main/java :
 
-    mvn test
-    mvn package
-    java -cp target/question3-1.0-SNAPSHOT.jar org.vnsgbt.infoplus.App    
-    
+javac org/vnsgbt/infoplus/Question1.java
+
+java -cp . org.vnsgbt.infoplus.Question1 [longNumber]
     
